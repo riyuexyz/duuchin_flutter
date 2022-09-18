@@ -1,5 +1,6 @@
 import 'package:duuchin_flutter/components/root_page_head.dart';
 import 'package:duuchin_flutter/http/http.dart';
+import 'package:duuchin_flutter/view/sub_pages/song_page.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
@@ -19,7 +20,7 @@ const List<Tab> _tabs  = [
 ];
 
 final List<Widget> _tabsContent = [
-  Text("1111"),
+  SongPage(),
   Text("1111"),
   Text("1111"),
   Text("1111"),
